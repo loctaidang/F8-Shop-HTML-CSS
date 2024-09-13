@@ -21,6 +21,11 @@
     color: var(--white-color);
     font-weight: 300;
 }
+.header__navbar-item:hover,
+.header__navbar-item-link:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
+}
 .item header__navbar-item--strong{
     font-weight: 400;
 }
@@ -28,4 +33,9 @@
 .header__navbar-item--separator {
     border-right: 1px solid hsla(0, 0%, 100%, 0.4);
     height: 0.8125rem;
+}
+
+.header__navbar-icon-link{
+    color: var(--white-color);
+    text-decoration: none;
 }
